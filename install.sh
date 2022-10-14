@@ -28,7 +28,7 @@ if [ -e "$HOME/.tmux.conf" ]; then
 fi
 
 cp -f "$HOME/.tmux.conf" "$HOME/.tmux.conf.bak" 2>/dev/null || true
-cp -a ./tmux/. "$HOME"/.tmux/
+#cp -a ./tmux/. "$HOME"/.tmux/
 ln -sf .tmux/tmux.conf "$HOME"/.tmux.conf;
 
 # Install TPM plugins.

@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 # helper functions
 get_tmux_option() {
